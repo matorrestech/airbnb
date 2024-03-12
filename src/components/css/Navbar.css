@@ -1,0 +1,83 @@
+.navTop {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: white;
+    border-bottom: 1px solid #ececec;
+}
+
+.logo {
+    width: 105px;
+}
+
+.airbnbYourHome {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.airbnbYourHome:hover {
+    background: #eeeeee;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #161616;
+}
+
+.iconLanguage {
+    width: 45px;
+    color: #161616;
+    text-decoration: none;
+    text-align: center;
+    padding: 6px;
+}
+
+.iconLanguage:hover {
+    background: #eeeeee;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #161616;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.mdi-web {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buttonLogin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    width: 80px;
+    border-radius: 30px;
+    border: 1px solid gray;
+    background: white;
+}
+
+.buttonLogin:hover {
+    color: gray;
+}
+
+nav#mobile {
+    height: 70px;
+}
+
+.navIcon {
+    color: #ccc;
+    border-top: 1px solid #ccc;
+    text-decoration: none;
+    width: 100%;
+}
+
+.navIcon:hover {
+    color: #858585;
+}
+
+.navIcon.active {
+    color: #ff5a5f;
+    border-top: 3px solid #ff5a5f;
+}
