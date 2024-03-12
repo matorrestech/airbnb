@@ -1,8 +1,22 @@
-# React + Vite
+# [React + Vite] => Profile Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Screenshots
 
-Currently, two official plugins are available:
+<div align="center">
+<img src="https://github.com/matorrestech/profile-component-react/blob/main/sreenshots/screenshots.jpg" />
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+
+Welcome to the project repository! This is a space dedicated to development and continuous learning. Here, you will find the foundation of my studies and experiments in Web Development, Front-End, HTML, CSS, Javascript, React.js, and TailwindCSS. The projects in this repository serve as a laboratory where I apply concepts, test ideas, and enhance my skills.
+
+## Contact
+
+"If you have any questions or suggestions, feel free to get in touch:"
+
+<b>Mobile:</b> 07415 952646<br/>
+<b>Email:</b> [mt@matheustorres.com](mailto:mt@matheustorres.com)
+
+<b>Portfolio:</b> <a href="[https://matheustorres.com](https://matheustorres.com/)" target="_blank">matheustorres.com</a>
+
+Thank you for exploring this project! It reflects my constant effort to improve my skills and knowledge.
