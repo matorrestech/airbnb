@@ -17,6 +17,6 @@ Welcome to the project repository! This is a space dedicated to development and 
 <b>Mobile:</b> 07415 952646<br/>
 <b>Email:</b> [mt@matheustorres.com](mailto:mt@matheustorres.com)
 
-<b>Portfolio:</b> <a href="[https://matheustorres.com](https://matheustorres.com/)" target="_blank">matheustorres.com</a>
+<b>Portfolio:</b> <a href="https://matheustorres.com" target="_blank">matheustorres.com</a>
 
 Thank you for exploring this project! It reflects my constant effort to improve my skills and knowledge.
