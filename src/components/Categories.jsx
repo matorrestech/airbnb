@@ -18,12 +18,12 @@ import "./css/Categories.css"
 //Import Categories Dados
 import { categories } from "../../backend/dados"
 
-export default function Categories() {
+export default function Categories({ changeCat }) {
     const [idChecked, setIdChecked] = useState(1)
 
     const handleClick = (e, id) => {
-        console.log("id checked is:", id)
         setIdChecked(id)
+        changeCat(id)
     }
 
     return (

@@ -4,7 +4,12 @@ import PriceSlider from "./PriceSlider"
 import ButtonGroup from "./ButtonGroup"
 import CardGroup from "./CardGroup"
 
-export default function ModalFilter() {
+export default function ModalFilter({
+    resetFilter,
+    catID,
+    filterByPrice,
+    items,
+}) {
     return (
         <div
             className="modal fade"
@@ -34,7 +39,13 @@ export default function ModalFilter() {
                             <p className="text-muted">
                                 The average price per night is £120
                             </p>
-                            <PriceSlider min={50} max={2000} step={1} />
+                            <PriceSlider
+                                catID={catID}
+                                filterByPrice={filterByPrice}
+                                min={50}
+                                max={2000}
+                                step={1}
+                            />
                         </section>
                         <section className="px-2 mb-4 border-bottom">
                             <span className="fs-4 fw-bold">Property type</span>
@@ -178,7 +189,12 @@ export default function ModalFilter() {
                         </section>
                     </div>
                     <div className="modal-footer d-flex justify-content-between">
-                        <a href="#" className="ps-2 link-dark fw-bold">
+                        <a
+                            href="#"
+                            onClick={() => resetFilter(catID)}
+                            className="ps-2 link-dark fw-bold"
+                            data-bs-dismiss="modal"
+                        >
                             Clear all
                         </a>
 
@@ -187,7 +203,7 @@ export default function ModalFilter() {
                             className="fw-bold px-4 py-3 btn btn-dark"
                             data-bs-dismiss="modal"
                         >
-                            Show X homes
+                            Show {items.length} homes
                         </button>
                     </div>
                 </div>
