@@ -1,4 +1,4 @@
-# [React + Vite] => Profile Component
+# [React + Vite] => Simulating the Airbnb website
 
 ## Screenshots
 
