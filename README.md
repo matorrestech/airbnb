@@ -17,7 +17,7 @@ during data loading.
 
 ## **Access the online project**
 
-![](https://matheustorres.com/airbnb)
+[matheustorres.com/airbnb](https://matheustorres.com/airbnb)
 
 ## **Technologies**
 
