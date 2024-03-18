@@ -7,11 +7,17 @@ during data loading.
 
 ## **Screenshots**
 
-![](readme/screenshot01.jpg)
+<p align="center">
+  <img src="readme/screenshot01.jpg" alt="Screenshot 1">
+</p>
 
-![](readme/screenshot02.jpg)
+<p align="center">
+  <img src="readme/screenshot02.jpg" alt="Screenshot 2">
+</p>
 
-![](readme/video01.mp4)
+## **Access the online project**
+
+![](https://matheustorres.com/airbnb)
 
 ## **Technologies**
 
